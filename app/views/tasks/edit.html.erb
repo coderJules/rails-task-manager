@@ -2,9 +2,10 @@
 <%= form_for @tasks do |f| %>
   <%= f.label :name, "enter a task" %>
   <%= f.text_field :name %>
+
   <%= f.label :details, "task details" %>
   <%= f.text_field :details %>
-  <%= f.checkbox :completed %>
+
   <%= f.submit %>
 <% end %>
 
